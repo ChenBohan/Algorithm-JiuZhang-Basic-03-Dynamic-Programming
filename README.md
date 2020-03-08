@@ -45,4 +45,7 @@
 - [triangle](https://www.lintcode.com/problem/triangle/description)
 
 - [minimum-path-sum](https://www.lintcode.com/problem/minimum-path-sum/description)
-
+  - state: f[x][y]从起点走到x,y的最短路径
+  - function: f[x][y] = min(f[x-1][y], f[x][y-1]) + A[x][y]
+  - intialize: f[i][0] = sum(0,0 ~ i,0) f[0][i] = sum(0,0 ~ 0,i)
+  - answer: f[n-1][m-1]
