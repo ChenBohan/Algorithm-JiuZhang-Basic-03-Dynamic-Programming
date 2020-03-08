@@ -40,4 +40,9 @@
   - 背包型动态规划 10% （算法强化班）
   - 区间型动态规划 5% （算法强化班）
 
+### 坐标型动态规划
+
 - [triangle](https://www.lintcode.com/problem/triangle/description)
+
+- [minimum-path-sum](https://www.lintcode.com/problem/minimum-path-sum/description)
+
